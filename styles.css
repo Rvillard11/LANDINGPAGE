@@ -1,0 +1,154 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin-bottom: 1vh;
+}
+
+#main{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+    height: 150vh;
+
+    background-color: #b0b0b0;
+
+
+}
+
+#main2 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 85vh;
+
+
+}
+
+.card{
+
+    background-color: rgb(255, 255, 255);
+
+    padding: 2vh;
+
+    margin: 3vh;
+
+    border-radius: 1vh;
+
+    min-width: fit-content;
+
+    width: 80vh;
+
+    border: solid 0.1vh rgb(0, 0, 0);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#pic{
+
+    width: 15vh;
+    height: 15vh;
+    margin-top: 2vh;
+    border-radius: 50%;
+
+}
+
+.description{
+    margin-top: 2vh;
+    width: 70vh;
+}
+
+.btn{
+    margin-top: 2vh;
+    padding: 2vh;
+    border-radius: 1vh;
+}
+
+.logo{
+    width: 5vh;
+    cursor: pointer;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+#paysage{
+    width: 100%;
+    height: 85vh;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+#second{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 5vh;
+}
+
+#middle{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #cdcdcd;
+    height: 30vh;
+}
+
+.cards{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 40vh;
+    height: fit-content;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1vh 1vh 1vh;
+
+    padding: 2vh;
+
+
+
+    border: #ffffff solid 0.1vh;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#bio{
+    background-color: rgb(255, 255, 255);
+}
+
